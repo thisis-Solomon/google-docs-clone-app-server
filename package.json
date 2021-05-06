@@ -1,0 +1,24 @@
+{
+  "name": "google-doc-clone",
+  "version": "1.0.0",
+  "description": "This is a google docs clone app server side app",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "googl",
+    "docs",
+    "clone"
+  ],
+  "author": "Solomon Njobvu",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.12.7",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
